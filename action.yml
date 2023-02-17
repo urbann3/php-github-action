@@ -1,0 +1,11 @@
+---
+name: PHP for GitHub Actions
+description: 
+inputs: 
+  php-version:
+    description: php version to be installed
+    required: true
+    default: 7.4
+runs:
+ using: node16
+ main: action/index.js
